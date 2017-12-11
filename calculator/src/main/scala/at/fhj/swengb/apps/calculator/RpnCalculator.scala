@@ -14,9 +14,15 @@ object RpnCalculator {
     * @param s a string representing a calculation, for example '1 2 +'
     * @return
     */
-  def apply(s: String): Try[RpnCalculator] = ???
+  def apply(s: String): Try[RpnCalculator] = {
+    s match {
+      case isEmpty => Try(RpnCalculator())
+      case _ => val x = s.split(" ").toList.map((y) => Op(y))
+        (RpnCalculator().push(x))
+    }
+  }
+  }
 
-}
 
 /**
   * Reverse Polish Notation Calculator.
@@ -32,7 +38,9 @@ case class RpnCalculator(stack: List[Op] = Nil) {
     * @param op
     * @return
     */
-  def push(op: Op): Try[RpnCalculator] = ???
+  def push(op: Op): Try[RpnCalculator] = {
+    Try(RpnCalculator(stack :+ op))
+  }
 
   /**
     * Pushes val's on the stack.
@@ -42,26 +50,32 @@ case class RpnCalculator(stack: List[Op] = Nil) {
     * @param op
     * @return
     */
-  def push(op: Seq[Op]): Try[RpnCalculator] = ???
-
+  def push(op: Seq[Op]): Try[RpnCalculator] = {
+    Try(op.foldLeft(RpnCalculator())((acc,x)=>acc.push(x).get))
+  }
   /**
     * Returns an tuple of Op and a RevPolCal instance with the remainder of the stack.
     *
     * @return
     */
-  def pop(): (Op, RpnCalculator) = ???
+  def pop(): (Op, RpnCalculator) = ((stack.head), RpnCalculator(stack.tail))
 
   /**
     * If stack is nonempty, returns the top of the stack. If it is empty, this function throws a NoSuchElementException.
     *
     * @return
     */
-  def peek(): Op = ???
+  def peek(): Op = {
+    stack match {
+      case (isEmpty) => throw new NoSuchElementException
+      case _ => stack.head
+    }
+  }
 
   /**
     * returns the size of the stack.
     *
     * @return
     */
-  def size: Int = ???
+  def size: Int = stack.size
 }
