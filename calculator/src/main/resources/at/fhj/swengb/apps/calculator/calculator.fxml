@@ -76,18 +76,28 @@
                 text="CHANGE" GridPane.columnIndex="3" GridPane.rowIndex="7">
 
         </Button>
-        <Button mnemonicParsing="false" onAction="#sgn" prefHeight="50.0" prefWidth="100.0" styleClass="dark"
-                text="0" GridPane.columnIndex="3" GridPane.rowIndex="8">
+        <Button mnemonicParsing="false" onAction="#sgn" prefHeight="50.0" prefWidth="100.0" styleClass="orange"
+                text="ENTER" GridPane.columnIndex="3" GridPane.rowIndex="8">
 
         </Button>
 
-        <Button mnemonicParsing="false" onAction="#sgn" prefHeight="50.0" prefWidth="50.0" styleClass="grey"
-                text="ENTER" GridPane.columnIndex="0" GridPane.ColumnSpan="2" GridPane.rowIndex="8">
+        <Button mnemonicParsing="false" onAction="#sgn" prefHeight="50.0" prefWidth="50.0" styleClass="dark"
+                text="0" GridPane.columnIndex="1" GridPane.rowIndex="8" GridPane.ColumnSpan="2">
+
+        </Button>
+
+        <Button mnemonicParsing="false" onAction="#sgn" prefHeight="50.0" prefWidth="50.0" styleClass="space"
+                text="" GridPane.columnIndex="0" GridPane.rowIndex="8" GridPane.ColumnSpan="2">
+
+        </Button>
+
+        <Button mnemonicParsing="false" onAction="#sgn" prefHeight="50.0" prefWidth="50.0" styleClass="space"
+                text="" GridPane.columnIndex="2" GridPane.rowIndex="8" GridPane.ColumnSpan="2">
 
         </Button>
 
 
-        <TextField fx:id="numberTextField" text="Test" editable="false" GridPane.columnIndex="0" GridPane.rowIndex="1" GridPane.RowSpan="1" GridPane.ColumnSpan="4"
+        <TextField fx:id="numberTextField" text="Test" styleClass = "space" editable="false" GridPane.columnIndex="0" GridPane.rowIndex="1" GridPane.RowSpan="1" GridPane.ColumnSpan="4"
         prefHeight="100" prefWidth="250"
         />
     </children>
