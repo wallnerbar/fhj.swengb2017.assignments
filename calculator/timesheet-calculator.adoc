@@ -19,4 +19,12 @@
 | 2
 | fixed <TextField> - editable="false"
 
+| 11.12.17
+| 10 min.
+| changed colors at GUI + moved buttons
+
+| 11.12.17
+| 3
+| worked on "RpnCalculator"
+
 |===
