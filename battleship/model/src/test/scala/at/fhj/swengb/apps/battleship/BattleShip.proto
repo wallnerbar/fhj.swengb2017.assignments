@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package at.fhj.swengb.apps.battleship;
+
+option java_package         = "at.fhj.swengb.apps.battleship";
+option java_outer_classname = "BattleShip";
+
+message Position {
+    int32 x = 1;
+    int32 y = 2;
+}
+
+message Orientation {
+    int32 Horizontal = 1;
+    int32 Vertical = 2;
+}
+
+message Vessel {
+    string name = 1;
+    Position startPos = 2;
+    Orientation direction = 3;
+    int32 size = 4;
+}

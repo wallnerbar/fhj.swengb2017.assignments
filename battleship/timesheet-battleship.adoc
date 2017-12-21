@@ -9,22 +9,16 @@
 | Actual Hours
 | Description
 
-| Arneitzj15
-| 29.11.17
-| 2
-| 1
-| Review of this and that
+| wallnerb15 & rinnhofe15
+| 21.12.2017
+| 30 minutes
+| 1 1/2
+| Review of the files
 
-| Arneitzj15
-| 30.11.17
-| 1
-| 5
-| implemented css
-
-| Heiderst16
-| 11.07.17
-| 2
-| 2
-| fixed bugs
+| wallnerb15 & rinnhofe15
+| 21.12.2017
+| 20 minutes
+| 8 minutes
+| implemented BattleShip.proto
 
 |===
