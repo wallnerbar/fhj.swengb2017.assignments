@@ -21,4 +21,12 @@
 | 8 minutes
 | implemented BattleShip.proto
 
+
+| wallnerb15 & rinnhofe15
+| 22.12.2017
+| 5 minutes
+| 15 minutes
+| implemented necessary scala worksheet + solving problems + refreshing sbt 
+
+
 |===
