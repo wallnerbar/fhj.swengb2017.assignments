@@ -12,7 +12,7 @@
 | wallnerb15 & rinnhofe15
 | 21.12.2017
 | 30 minutes
-| 1 1/2
+| 1 1/2 h
 | Review of the files
 
 | wallnerb15 & rinnhofe15
@@ -26,7 +26,29 @@
 | 22.12.2017
 | 5 minutes
 | 15 minutes
-| implemented necessary scala worksheet + solving problems + refreshing sbt 
+| implemented necessary scala worksheet + solving problems + refreshing sbt
 
+| wallnerb15 & rinnhofe15
+| 22.12.2017
+| 1 h
+| 1 1/2 h
+| Code implementation to BattleShipGameGen
 
+| wallnerb15 & rinnhofe15
+| 22.12.2017
+| 1 h
+| 1 h
+| fixing problems again - BattleShipDetails couldn't find "Battleship" from BattleShip.sc - fixed it with creativity
+
+| wallnerb15 & rinnhofe15
+| 22.12.2017
+| 1 h
+| 1 h
+| found out, that there already exists a .proto already - made a new one and worked in the wrong folder - fixed problems
+
+| wallnerb15 & rinnhofe15
+| 27.12.2017
+| 1 h
+| 1 1/2 h
+| Found out, that we are stupid idiots ;-) - after sbt refresh we didn't have a look at the scala folder - so the first two work days "worn fürn orsch" ;-)
 |===
