@@ -48,7 +48,13 @@
 
 | wallnerb15 & rinnhofe15
 | 27.12.2017
-| 1 h
-| 1 1/2 h
+| 30 min
+| 10 min
 | Found out, that we are stupid idiots ;-) - after sbt refresh we didn't have a look at the scala folder - so the first two work days "worn fürn orsch" ;-)
+
+| wallnerb15 & rinnhofe15
+| 22.12.2017
+| 10 min
+| 10 min
+| But it was very helpful - now we are more into protobuf than ever before ;-)
 |===
